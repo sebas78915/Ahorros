@@ -1,0 +1,50 @@
+/* Sebastián Loaiza Henao */
+html{
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+.ocultar{
+	display: none;
+}
+
+.mostrar{
+	display: block;
+}
+
+body{
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	width: 360px;
+}
+
+#pantalla_carga{
+	background: url(../img/splash-screen.png);
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 360px;
+}
+
+#mis_ahorros{
+	background: url(../img/fondogeneral.png);
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 360px;
+
+}
+
+#titulo_misahorros{
+	background: url(../img/Mis-ahorrostítulo.png);
+	width: 360px;
+	height: 83px;
+	position: absolute;
+}
+
+.barra_inferior{
+	background: url(../img/barrainferior.png);
+	position: relative;
+	top: 498px;
+	width: 360px;
+	height: 82px;
+}
