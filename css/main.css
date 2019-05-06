@@ -19,13 +19,6 @@ body{
 	width: 360px;
 }
 
-#pantalla_carga{
-	background: url(../img/splash-screen.png);
-	background-repeat: no-repeat;
-	height: 580px;
-	width: 360px;
-}
-
 #mis_ahorros{
 	background: url(../img/fondogeneral.png);
 	background-repeat: no-repeat;
@@ -47,4 +40,91 @@ body{
 	top: 498px;
 	width: 360px;
 	height: 82px;
+}
+h1{
+    font-family:DancingScript;
+}
+.splash{
+background:url('../img/splash-screen.png') no-repeat center center;
+width: 360px;
+height: 580px;
+position: absolute;
+top:0px;
+left: 0px;
+margin: 0;
+outline:none;   
+}
+.pantalla1{
+background:url('../img/fondo.png') no-repeat center center;
+width: 360px;
+height: 580px;
+position: absolute;
+top:0px;
+left: 0px;
+margin: 0;
+outline:none;
+}
+.cuadro-registro{
+top: 91px;
+left: 18px;
+text-align: center;
+width: 279px;
+height: 327px;
+outline: none;
+position: absolute;
+}
+.titulop1{
+top: 19px;
+left: 26px;
+width: 276px;
+height: 59px;
+outline: none;
+position: absolute;
+font-family: robotocondensed;
+color: green;
+font-size: 13px;
+text-align: center;
+}
+.iniciosp1{
+top: 101px;
+left: 34px;
+width: 252px;
+height: 59px;
+outline: none;
+position: absolute;
+font-family: tinos;
+color: green;
+font-size: 12px;
+text-align: center;
+}
+.form-inicio{
+top: 170px;
+left: 82px;
+text-align: center;
+width: 150px;
+height: 150px;
+outline: none;
+position: absolute;}
+
+.entradas{
+    border-radius: 50px;
+}
+.ingresar{
+top: 305px;
+left: 94px;
+outline: none;
+position: absolute;
+
+}
+.Continuar-sesion{
+top: 512px;
+left: 97px;
+width: 252px;
+height: 59px;
+outline: none;
+position: absolute;
+font-family: tinos;
+color: green;
+font-size: 10px;
+text-align: center;
 }

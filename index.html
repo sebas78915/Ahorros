@@ -3,15 +3,28 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="js/index.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 
 	<!-- Sección pantalla de carga -->
 
-	<section id="pantalla_carga" class="animated zoomIn"></section>
+	<section id="splash-screen" class="splash ocultar animated zoomIn"></section>
+	<!-- Sección pantalla de inicio sesion -->
+	<section id="inicio" class="pantalla1 ocultar animated pulse" >
+		<input class="cuadro-registro" type=image src="img/recuadro-registro.png">
+		 <div class="titulop1"> <h1>Algunas funciones no estarán habilitadas si no inicias tu sesión</h1></div>
+		 <div class="iniciosp1"> <h1>INICIAR SESIÓN</h1></div>
+		 <div class="form-inicio"><input class="entradas" type="email" id="email" placeholder="Email" /> <br><br><input class="entradas" type="password" id="contraseña" placeholder="*****"" />
+			 <br> <br>  <input  type="checkbox" name="datos" value="Bike">Recordar mis datos<br> 
+			 <br><br><br><br> <br> <a href="">Olvide mi contraseña</a> <br><br><br>  <a href="">¿No tienes cuenta aún? Registrate aqui</a>
+		 </div>
+		 <input class="ingresar" type=image src="img/boton-ingresar.png">
+		 <div id ="continuar-login" class="Continuar-sesion"><u> <h1>Continuar sin inicio de sesión</h1></u></div>
+	</section>
 
 	<!-- Sección mis ahorros -->
 
