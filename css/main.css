@@ -36,13 +36,21 @@ body{
 
 .barra_inferior{
 	background: url(../img/barrainferior.png);
-	position: relative;
+    position: absolute;
 	top: 498px;
 	width: 360px;
 	height: 82px;
 }
+.nuevo-ahorro{
+    
+    position: relative;
+    top: 20px;
+    left: 292px;
+    width: 47px;
+    height: 46px;	
+}
 h1{
-    font-family:DancingScript;
+    font-family:RobotoCondensed;
 }
 .splash{
 background:url('../img/splash-screen.png') no-repeat center center;
@@ -55,7 +63,7 @@ margin: 0;
 outline:none;   
 }
 .pantalla1{
-background:url('../img/fondo.png') no-repeat center center;
+background:url('../img/fondoiniciosesion.png') no-repeat center center;
 width: 360px;
 height: 580px;
 position: absolute;
@@ -80,8 +88,8 @@ width: 276px;
 height: 59px;
 outline: none;
 position: absolute;
-font-family: robotocondensed;
-color: green;
+font-family: ;
+color:  #55A66B;
 font-size: 13px;
 text-align: center;
 }
@@ -93,7 +101,7 @@ height: 59px;
 outline: none;
 position: absolute;
 font-family: tinos;
-color: green;
+color: #55A66B;
 font-size: 12px;
 text-align: center;
 }
@@ -104,10 +112,14 @@ text-align: center;
 width: 150px;
 height: 150px;
 outline: none;
-position: absolute;}
+position: absolute;
+color: #8791BF;}
 
 .entradas{
-    border-radius: 50px;
+    background-color: #C6CCE4;
+    width: 150px;
+    height: 19px;
+    border: 1px solid #55A66B;
 }
 .ingresar{
 top: 305px;
@@ -123,8 +135,81 @@ width: 252px;
 height: 59px;
 outline: none;
 position: absolute;
-font-family: tinos;
-color: green;
+font-family:RobotoCondensed ;
+color: #FAF2DB;
 font-size: 10px;
 text-align: center;
+}
+.pantallacrearAhorro{
+	background: url(../img/fondogeneral.png);
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 360px;
+}
+.titulo_nuevoahorro{
+	background: url(../img/nuevoahorrotitulo.png);
+	width: 360px;
+	height: 83px;
+	position: absolute;
+
+}
+.nombre_meta{
+	background-color: #FAF2DB;
+	width: 259px;
+    height: 27px;
+    border: 1px solid #6477AA;
+    position: relative;
+    top: 90px;
+	left: 51px;
+
+
+}
+.textonuevoahorro{
+    top: 177px;
+	left: 50px;
+    width: 204px;
+    height: 46px;
+    outline: none;
+    position: absolute;
+    font-family: tinos;
+    color: #6477AA;
+    font-size: 8px;
+    text-align: center;
+}
+.text2{top: 213px;width: 206px;}
+.text3{  top: 250px; left: 52px; width: 123px;}
+.text4{ top: 286px;left: 52px;width: 154px;}
+.text5{top: 360px;left: 50px;width: 173px;}
+.numerodedias{
+	background-color: #FAF2DB;
+    width: 51px;
+    height: 23px;
+    border: 1px solid #6477AA;
+    position: absolute;
+    top: 182px;
+    left: 259px;
+}
+.cadacuanto{top: 217px; left: 259px;}
+.monto{   top: 253px;   left: 184px;width: 127px;}
+.motivo{     top: 393px; left: 46px; width: 264px;  height: 59px;}
+.cuadroimagen{
+    background-color: #FAF2DB;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #6477AA;
+    position: absolute;
+
+}
+.img1{top: 313px;
+    left: 53px;}
+.img2{top: 313px;
+    left: 103px;}
+.img3{top: 313px;
+    left: 152px;}
+.img4{ top:313px;
+	left: 203px;}
+.guardarnewahorro{
+    top: 464px;
+    left: 189px;
+    position: absolute;
 }

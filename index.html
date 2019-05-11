@@ -28,13 +28,38 @@
 
 	<!-- Sección mis ahorros -->
 
-	<section id="mis_ahorros" class="tab ocultar">
+	<section id="mis_ahorros" class="tab ocultar animated pulse">
 		<div id="titulo_misahorros"></div>
+		<div id="nuevo_ahorro" class="nuevo-ahorro"></div>
 
 
 		<div class="barra_inferior"></div>
 	</section>
 
+	<!-- Sección crear ahorro -->
+    <section id="pantallanuevoahorro" class="pantallacrearAhorro ocultar animated pulse" >
+			<div class="titulo_nuevoahorro"></div>
+			<div id="salir_nuevoahorro" class="nuevo-ahorro"></div>
+			<input class="nombre_meta" type="text" id="name_meta" placeholder="Nombre de la meta..." />
+			<div class="textonuevoahorro"> <h1>¿Cuantos dias tienes para cumplir la meta?</h1></div>
+			<input class="numerodedias" type="number" id="numdias" placeholder="" />
+			<div class="textonuevoahorro text2"> <h1>¿Cada cuanto quieres ahorrar para la meta?</h1></div>
+			<input class="numerodedias cadacuanto" type="number" id="numdiascc" placeholder="" />
+			<div class="textonuevoahorro text3"> <h1>Monto de dinero a ahorrar</h1></div>
+			<input class="numerodedias monto" type="number" id="monto" placeholder="" />
+			<div class="textonuevoahorro text4"> <h1>Escoge una imagen para la meta</h1></div>
+			<input class="cuadroimagen img1" type="image" id="img_1" src="img/1.png" placeholder="" />
+			<input class="cuadroimagen img2" type="image" id="img_2" src="img/2.png" placeholder="" />
+			<input class="cuadroimagen img3" type="image" id="img_3" src="img/3.png" placeholder="" />
+			<input class="cuadroimagen img4" type="image" id="img_4" src="img/4.png" placeholder="" />
+			<div class="textonuevoahorro text5"> <h1>¿Que te motiva a cumplir esta meta?</h1></div>
+			<input class="numerodedias motivo" type="text" id="motivo" placeholder="Escribe aqui..." />
+			<input id="guardar_ahorro" class="guardarnewahorro" type=image src="img/botonguardar.png">
+
+			<div class="barra_inferior"></div>
+
+
+	</section>
 	
 </body>
 </html>

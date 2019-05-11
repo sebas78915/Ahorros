@@ -1,9 +1,9 @@
 @font-face{
-font-family:DancingScript;
- src:url("font/DancingScript.ttf");}
+font-family:"DancingScript";
+ src:url("../font/DancingScript.ttf");}
 @font-face{
-font-family:Tinos;
-src:url("font/Tinos.ttf");}
+font-family:"Tinos";
+src:url("../font/Tinos.ttf");}
 @font-face{
-font-family:RobotoCondensed;
-src:url("font/RobotoCondensed.ttf"); }
+font-family:"RobotoCondensed";
+src:url("../font/RobotoCondensed.ttf"); }
