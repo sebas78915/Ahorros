@@ -51,6 +51,24 @@ body{
 }
 h1{
     font-family:RobotoCondensed;
+    text-align: center;
+}
+h2{
+    font-family:RobotoCondensed;
+    text-align: center;
+    font-size: 19px;
+    color: #56A668;
+}
+h3{
+    font-family:RobotoCondensed;
+    text-align: center;
+    font-size: 10px;
+}
+span{
+    font-family:RobotoCondensed;
+    text-align: center;
+    font-size: 10px;
+    color: red; 
 }
 .splash{
 background:url('../img/splash-screen.png') no-repeat center center;
@@ -212,4 +230,17 @@ text-align: center;
     top: 464px;
     left: 189px;
     position: absolute;
+}
+.bodyahorros{
+    width: 314px;
+    height: 390px;
+    position: relative;
+    top: 46px;
+    left: 22px;
+    LINE-HEIGHT:9px;
+    overflow:auto;
+}
+.delete{
+
+    text-align-last: 9px;
 }
