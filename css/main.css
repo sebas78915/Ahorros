@@ -263,3 +263,16 @@ text-align: center;
 	width: 360px;
 	height: 82px;
 }
+
+#progreso{
+    background: url(../img/fondogeneral.png);
+    width: 360px;
+    height: 580px;
+}
+
+.titulo_progreso{
+    background: url(../img/progresotitulo.png);
+    width: 360px;
+	height: 83px;
+	position: absolute;
+}
