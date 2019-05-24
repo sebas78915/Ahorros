@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <!-- <script type="text/javascript" src="js/main.js"></script> -->
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 
 	<section id="splash-screen" class="splash ocultar animated zoomIn"></section>
 	<!-- Sección pantalla de inicio sesion -->
-	<section id="inicio" class="pantalla1 ocultar animated pulse" >
+	<section id="inicio" class="pantalla1 ocultar animated zoomInDown" >
 		<input class="cuadro-registro" type=image src="img/recuadro-registro.png">
 		 <div class="titulop1"> <h1>Algunas funciones no estarán habilitadas si no inicias tu sesión</h1></div>
 		 <div class="iniciosp1"> <h1>INICIAR SESIÓN</h1></div>
@@ -25,55 +25,78 @@
 		 <input class="ingresar" type=image src="img/boton-ingresar.png">
 		 <div id ="continuar-login" class="Continuar-sesion"><u> <h1>Continuar sin inicio de sesión</h1></u></div>
 	</section>
+
 	<!-- Sección mis ahorros -->
-	<section id="mis_ahorros" class="ocultar animated pulse">
-	
-		<div id="titulo_misahorros"></div>
+
+	<section id="mis_ahorros" class="tab ocultar animated pulse ">
+		<div class="ahorrog" id="nextahg" > </div>
+		<div class="animated jackInTheBox" id="titulo_misahorros"></div>
+
 		<div id="nuevo_ahorro" class="nuevo-ahorro"></div>
+
 		<section id="cuerpo-ahorros" class="bodyahorros" >
 			
 		</section>
+
 		<div class="barra_inferior"></div>
 	</section>
+
 	<!-- Sección crear ahorro -->
     <section id="pantallanuevoahorro" class="pantallacrearAhorro ocultar animated pulse" >
-			<div class="titulo_nuevoahorro"></div>
+			<div class="titulo_nuevoahorro animated jackInTheBox"></div>
 			<div id="salir_nuevoahorro" class="nuevo-ahorro"></div>
-			<input class="nombre_meta" type="text" id="name_meta" placeholder="Nombre de la meta..." />
-			<div class="textonuevoahorro"> <h1>¿Cuantos dias tienes para cumplir la meta?</h1></div>
-			<input id="dias"class="numerodedias" type="number" id="numdias" placeholder="" />
-			<div class="textonuevoahorro text2"> <h1>¿Cada cuanto quieres ahorrar para la meta?</h1></div>
-			<input id="cadcuanto" class="numerodedias cadacuanto" type="number" id="numdiascc" placeholder="" />
-			<div class="textonuevoahorro text3"> <h1>Monto de dinero a ahorrar</h1></div>
-			<input id="monto" class="numerodedias monto" type="number" id="monto" placeholder="" />
-			<div class="textonuevoahorro text4"> <h1>Escoge una imagen para la meta</h1></div>
-			<input class="cuadroimagen img1" type="image" id="img_1" src="img/1.png" placeholder="" />
-			<input class="cuadroimagen img2" type="image" id="img_2" src="img/2.png" placeholder="" />
-			<input class="cuadroimagen img3" type="image" id="img_3" src="img/3.png" placeholder="" />
-			<input class="cuadroimagen img4" type="image" id="img_4" src="img/4.png" placeholder="" />
-			<div class="textonuevoahorro text5"> <h1>¿Que te motiva a cumplir esta meta?</h1></div>
-			<input id="motivo" class="numerodedias motivo" type="text" id="motivo" placeholder="Escribe aqui..." />
-			<input id="guardar_ahorro" class="guardarnewahorro" type=image src="img/botonguardar.png">
+			<input class="nombre_meta animated zoomIn" type="text" id="name_meta" placeholder="Nombre de la meta..." />
+			<div class="textonuevoahorro animated zoomIn"> <h1>¿Cuantos dias tienes para cumplir la meta?</h1></div>
+			<input id="dias"class="numerodedias animated zoomIn" type="number" id="numdias" placeholder="" />
+			<div class="textonuevoahorro text2 animated zoomIn"> <h1>¿Cada cuanto dias quieres ahorrar para la meta?</h1></div>
+			<input id="cadcuanto" class="numerodedias cadacuanto animated zoomIn" type="number" id="numdiascc" placeholder="" />
+			<div class="textonuevoahorro text3 animated zoomIn"> <h1>Monto de dinero a ahorrar</h1></div>
+			<input id="monto" class="numerodedias monto animated zoomIn" type="number" id="monto" placeholder="" />
+			<div class="textonuevoahorro text4 animated zoomIn"> <h1>Escoge una imagen para la meta</h1></div>
+			<input class="cuadroimagen img1 animated zoomIn" type="image" id="img_1" src="img/1.png" placeholder="" />
+			<input class="cuadroimagen img2 animated zoomIn" type="image" id="img_2" src="img/2.png" placeholder="" />
+			<input class="cuadroimagen img3 animated zoomIn" type="image" id="img_3" src="img/3.png" placeholder="" />
+			<input class="cuadroimagen img4 animated zoomIn" type="image" id="img_4" src="img/4.png" placeholder="" />
+			<div class="textonuevoahorro text5 animated zoomIn"> <h1>¿Que te motiva a cumplir esta meta?</h1></div>
+			<input id="motivo" class="numerodedias motivo animated zoomIn" type="text" id="motivo" placeholder="Escribe aqui..." />
+			<input id="guardar_ahorro" class="guardarnewahorro animated zoomIn" type=image src="img/botonguardar.png">
+
 			<div class="barra_inferior"></div>
+
 			</div>
+
+
 	</section>
 
+	<section id="progreso" class="PantallaProgreso animated pulse ocultar  ">
+	<div class="animated jackInTheBox" id="titulo_progreso"></div>
+	<input id="atrasprogr" class="backp" type=image src="img/atrasprogreso.png">	
+	<div class="barra_inferior"></div>	
+    <section id="cuerpo-progreso" class="bodyprogreso" >
+	
+		
+
+	</section>
+	<div id="descrip" class="descripcion">
+	</div>
+</section>
 	<!-- Sección Ahorros en grupo -->
 
 	<section id="ahorrosengrupo" class="ocultar">
-		<div id="tituloahorrosgrupo"></div>
-
-		<div class="barra_inferior2"></div>
-	</section>
-
-	<!-- Sección progreso -->
-
-	<section id="progreso" class="">
-		<div class="titulo_progreso"></div>
-
-		<div class="barra_inferior2"></div>
-	</section>
+			<div class="ahorron" id="botontoahorros" > </div>
+			<div class="animated jackInTheBox" id="tituloahorrosgrupo"></div>
+			<div id="nuevo_ahorroG" class="nuevo-ahorro"></div>
+			<div class="barra_inferior2"></div>
+		</section>
 	
+		<!-- Sección progreso -->
 	
+		<section id="progreso" class="ocultar">
+			<div class="titulo_progreso"></div>
+	
+			<div class="barra_inferior2"></div>
+		</section>
+	
+
 </body>
 </html>
