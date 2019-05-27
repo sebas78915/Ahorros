@@ -246,7 +246,7 @@ function cargar_ahorros(){
             document.getElementById("cuerpo-ahorros").innerHTML += ' <div id="'+elements[x].clave+'" class="animated  fadeInDownBig"> <h2 id="ahorri'+elements[x].clave+'">'+elements[x].nombre_meta+'<img id="delete'+elements[x].clave+'" class="delete" src="img/iconoelimimar.png" alt=""> </h1> <h3 id="ahoro'+elements[x].clave+'">Meta alcanzada <span> </span> </h3><h3 id="ahorro'+elements[x].clave+'">Dias restantes: '+diasquefaltan+' </h3> <hr style="color: #0056b2;" />  </div>';
         }
         else{
-            document.getElementById("cuerpo-ahorros").innerHTML += ' <div id="ahr'+elements[x].clave+'" class="animated  fadeInDownBig"> <h2 id="ahorri'+elements[x].clave+'">'+elements[x].nombre_meta+'<img id="delete'+elements[x].clave+'" class="delete" src="img/iconoelimimar.png" alt=""> </h1> <h3 id="ahoro'+elements[x].clave+'">Te faltan: <span >$ '+falta+'</span> </h3><h3 id="ahorro'+elements[x].clave+'">Dias restantes: '+diasquefaltan+' </h3> <hr style="color: #0056b2;" />  </div>';
+            document.getElementById("cuerpo-ahorros").innerHTML += ' <div id="ahr'+elements[x].clave+'" class="animated  fadeInDownBig"> <h2 id="ahorri'+elements[x].clave+'">'+elements[x].nombre_meta+'<img id="delete'+elements[x].clave+'" class="delete" src="img/iconoelimimar.png" alt=""> </h1> <h3 id="ahoro'+elements[x].clave+'">Te faltan: <span id="'+elements[x].clave+'" >$ '+falta+'</span> </h3><h3 id="ahorro'+elements[x].clave+'">Dias restantes: '+diasquefaltan+' </h3> <hr style="color: #0056b2;" />  </div>';
         }
       
     }
@@ -254,6 +254,7 @@ function cargar_ahorros(){
         document.getElementById("delete"+elements[i].clave).addEventListener("click",eliminar_ahorro);
         document.getElementById("ahorro"+elements[i].clave).addEventListener("click",cargar_progreso);
         document.getElementById("ahoro"+elements[i].clave).addEventListener("click",cargar_progreso);
+        document.getElementById(+elements[i].clave).addEventListener("click",cargar_progreso);
         
         
 
