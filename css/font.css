@@ -7,3 +7,9 @@ src:url("../font/Tinos.ttf");}
 @font-face{
 font-family:"RobotoCondensed";
 src:url("../font/RobotoCondensed.ttf"); }
+@font-face{
+font-family:"RobotoThin";
+    src:url("../font/Roboto-Thin.ttf"); }
+@font-face{
+        font-family:"RobotoBold";
+        src:url("../font/Roboto-Bold.ttf"); }

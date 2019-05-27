@@ -16,6 +16,7 @@
 	<!-- Sección pantalla de inicio sesion -->
 	<section id="inicio" class="pantalla1 ocultar animated zoomInDown" >
 		<input class="cuadro-registro" type=image src="img/recuadro-registro.png">
+		<input id="botoncreditos" class="boton-creditos" type=image src="img/botoncreditos.png">
 		 <div class="titulop1"> <h1>Algunas funciones no estarán habilitadas si no inicias tu sesión</h1></div>
 		 <div class="iniciosp1"> <h1>INICIAR SESIÓN</h1></div>
 		 <div class="form-inicio"><input class="entradas" type="email" id="email" placeholder="Email" /> <br><br><input class="entradas" type="password" id="contraseña" placeholder="*****"" />
@@ -30,20 +31,20 @@
 
 	<section id="mis_ahorros" class="tab ocultar animated pulse ">
 		<div class="ahorrog" id="nextahg" > </div>
-		<div class="animated jackInTheBox" id="titulo_misahorros"></div>
-
+		<div class="animated slideInDown" id="titulo_misahorros"></div>
+		<div class="ahorroT" id="botontoahorroT" > </div>
 		<div id="nuevo_ahorro" class="nuevo-ahorro"></div>
 
 		<section id="cuerpo-ahorros" class="bodyahorros" >
 			
 		</section>
 
-		<div class="barra_inferior"></div>
+		<div class="barra_inferior animated jackInTheBox "></div>
 	</section>
 
 	<!-- Sección crear ahorro -->
     <section id="pantallanuevoahorro" class="pantallacrearAhorro ocultar animated pulse" >
-			<div class="titulo_nuevoahorro animated jackInTheBox"></div>
+			<div class="titulo_nuevoahorro animated slideInDown"></div>
 			<div id="salir_nuevoahorro" class="nuevo-ahorro"></div>
 			<input class="nombre_meta animated zoomIn" type="text" id="name_meta" placeholder="Nombre de la meta..." />
 			<div class="textonuevoahorro animated zoomIn"> <h1>¿Cuantos dias tienes para cumplir la meta?</h1></div>
@@ -61,22 +62,25 @@
 			<input id="motivo" class="numerodedias motivo animated zoomIn" type="text" id="motivo" placeholder="Escribe aqui..." />
 			<input id="guardar_ahorro" class="guardarnewahorro animated zoomIn" type=image src="img/botonguardar.png">
 
-			<div class="barra_inferior"></div>
-
+			<div class="barra_inferior animated jackInTheBox "></div>
+			<div class="ahorrog" id="nextahg2" > </div>
+			<div class="ahorroT" id="botontoahorroT2" > </div>
 			</div>
 
 
 	</section>
 
 	<section id="progreso" class="PantallaProgreso animated pulse ocultar  ">
-	<div class="animated jackInTheBox" id="titulo_progreso"></div>
+	<div class="animated slideInDown" id="titulo_progreso"></div>
 	<input id="atrasprogr" class="backp" type=image src="img/atrasprogreso.png">	
-	<div class="barra_inferior"></div>	
+	<div class="barra_inferior animated jackInTheBox "></div>	
     <section id="cuerpo-progreso" class="bodyprogreso" >
 	
-		
+	
 
 	</section>
+	<div class="ahorrog" id="nextahg3" > </div>
+	<div class="ahorroT" id="botontoahorroT3" > </div>
 	<div id="descrip" class="descripcion">
 	</div>
 </section>
@@ -84,19 +88,77 @@
 
 	<section id="ahorrosengrupo" class="ocultar">
 			<div class="ahorron" id="botontoahorros" > </div>
-			<div class="animated jackInTheBox" id="tituloahorrosgrupo"></div>
-			<div id="nuevo_ahorroG" class="nuevo-ahorro"></div>
-			<div class="barra_inferior2"></div>
+			<div class="ahorroT" id="botontoahorroT4" > </div>
+			<div class="animated slideInDown" id="tituloahorrosgrupo"></div>
+			<br> <br> <br> <br> 
+			<div id="oneg" class="animated fadeIn" style="line-height: 8px;">
+			<h2>Cumple de Sebas<img id="" class="deleteg" src="img/iconoelimimar.png" alt=""> 
+			<h3>Lider del grupo: <span class="verde">Tú</span> </h3>
+			<h3>Te faltan: <span>$ 25 mil</span> </h3><h3>Dias restantes: 7 dias </h3><hr style="color: #0056b2;" />  </div>
+			<div id="twog" class="animated fadeIn" style="line-height: 8px;">
+					<h2>Fiesta de final de semestre<img id="" class="deleteg" src="img/iconoelimimar.png" alt=""> 
+					<h3>Lider del grupo: <span class="verde">Tú</span> </h3>
+					<h3>Te faltan: <span>$ 25 mil</span> </h3><h3>Dias restantes: 7 dias </h3><hr style="color: #0056b2;" />  </div>
+			<div id="nuevo_ahorroG" class="nuevo-ahorro ga"></div>
+			<div class="barra_inferior2 animated jackInTheBox "></div>
 		</section>
 	
 		<!-- Sección progreso -->
 	
-		<section id="progreso" class="ocultar">
-			<div class="titulo_progreso"></div>
-	
-			<div class="barra_inferior2"></div>
+		<section id="progresoG" class="progresoG ocultar">
+				<div class="ahorron" id="botontoahorros2" > </div>
+				<div class="ahorroT" id="botontoahorroT5" > </div>
+			<div class="titulo_progreso animated slideInDown"></div>
+			<div class="cuerpoprogreG"></div>
+			<input id="atrasprogrG" class="backp" type=image src="img/atrasprogreso.png">
+			<div class="barra_inferior2 animated jackInTheBox "></div>
 		</section>
-	
+
+		<section id="avisoeliminar" class="eliminaavi ocultar">
+		<div  class="avisodelete"> </div>
+        <div class="cuadrodelete animated zoomIn">
+				<input id="sieleminar" class="guardarnewahorro sie " type=image src="img/si.png">
+				<input id="noeliminar" class="guardarnewahorro noe " type=image src="img/no.png">
+		</div>
+		</section>
+	   
+		<section id="avisofelicit" class="Avisofelici ocultar">
+		<div id="tocfeli" class="avisodelete"> </div>
+		<div class="cuadrofelici animated zoomIn">
+		</section>
+
+		<section id="nuevoahorrog" class="nuevoahorroeng ocultar">
+				<div class="titulonuevoahorrog"></div>
+				<div id="salir_nuevoahorrog" class="nuevo-ahorro"></div>
+			<input class="nombre_metag animated zoomIn" type="text" id="name_meta" placeholder="Nombre de la meta..." />
+			<div class="textonuevoahorrog animated zoomIn"> <h1>¿Cuantos dias tienes para cumplir la meta?</h1></div>
+			<input id="diasg"class="numerodediasg animated zoomIn" type="number" id="numdias" placeholder="" />
+			<div class="textonuevoahorrog text2g animated zoomIn"> <h1>¿Cada cuanto  quieres ahorrar para la meta?</h1></div>
+			<input id="cadcuantog" class="numerodediasg cadacuantog animated zoomIn" type="number" id="numdiascc" placeholder="" />
+			<div class="textonuevoahorrog text3g animated zoomIn"> <h1>Monto de dinero a ahorrar</h1></div>
+			<input id="montog" class="numerodediasg montog animated zoomIn" type="number" id="monto" placeholder="" />
+			<div class="textonuevoahorrog text6g animated zoomIn"> <h1>Numero de participantes</h1></div>
+			<input id="cuantpersonas" class="numerodediasg montog cuanp animated zoomIn" type="number" id="monto" placeholder="" />
+			<div class="textonuevoahorrog text4g animated zoomIn"> <h1>Escoge una imagen para la meta</h1></div>
+			<input class="cuadroimageng img1g animated zoomIn" type="image" id="img_1" src="img/1.png" placeholder="" />
+			<input class="cuadroimageng img2g animated zoomIn" type="image" id="img_2" src="img/2.png" placeholder="" />
+			<input class="cuadroimageng img3g animated zoomIn" type="image" id="img_3" src="img/3.png" placeholder="" />
+			<input class="cuadroimageng img4g animated zoomIn" type="image" id="img_4" src="img/4.png" placeholder="" />
+			<div class="textonuevoahorrog text5g animated zoomIn"> <h1>¿Que les motiva a cumplir esta meta?</h1></div>
+			<input id="motivog" class="numerodediasg motivog animated zoomIn" type="text" id="motivo" placeholder="Escribe aqui..." />
+			<input id="guardar_ahorrog" class="guardarnewahorrog animated zoomIn" type=image src="img/botonguardar.png">
+			<div class="ahorron" id="botontoahorros3" > </div>
+			<div class="ahorroT" id="botontoahorroT6" > </div>
+				<div class="barra_inferior2 animated jackInTheBox "></div>
+		</section>
+
+		<section id="creditos" class="creditos jackInTheBox animated  ocultar">
+				<input id="atrascreditos" class="backp backcre" type=image src="img/atrasprogreso.png">
+		</section>
+       <section id="tienda" class="tienda ocultar" >
+			<div id="mostrartienda" class="tiendafondo"> </div>
+			<div class="cuadroenprueba animated zoomIn">
+	   </section>
 
 </body>
 </html>
